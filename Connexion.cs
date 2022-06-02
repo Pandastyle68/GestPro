@@ -10,6 +10,9 @@ namespace GestPro
     class Connexion
     {
         private MySqlConnection connectstring = new MySqlConnection("server=localhost;user id=root;database=bdd_progest;persistsecurityinfo=True");
+        private bool connecte = false;
+
+        public bool Connecte { get => connecte; }
 
         static Connexion()
         {
@@ -17,12 +20,20 @@ namespace GestPro
 
         public void OpenConnection()
         {
-            connectstring.Open();
+            if (!connecte)
+            {
+                connectstring.Open();
+                connecte = true;
+            }
         }
 
         public void CloseConnection()
         {
-            connectstring.Close();
+            if (connecte)
+            {
+                connectstring.Close();
+                connecte = false;
+            }
         }
 
         public MySqlConnection getConnectString()

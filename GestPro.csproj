@@ -47,19 +47,155 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjoutCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutCommande.Designer.cs">
+      <DependentUpon>AjoutCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutEmploye.Designer.cs">
+      <DependentUpon>AjoutEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutFidele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutFidele.Designer.cs">
+      <DependentUpon>AjoutFidele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutFourn.Designer.cs">
+      <DependentUpon>AjoutFourn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutProd.Designer.cs">
+      <DependentUpon>AjoutProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commande.cs" />
+    <Compile Include="CommandeCo.cs" />
     <Compile Include="Connexion.cs" />
+    <Compile Include="ConsCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsCommande.Designer.cs">
+      <DependentUpon>ConsCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsFidele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsFidele.Designer.cs">
+      <DependentUpon>ConsFidele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsFourn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsFourn.Designer.cs">
+      <DependentUpon>ConsFourn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsPoste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsPoste.Designer.cs">
+      <DependentUpon>ConsPoste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsProd.Designer.cs">
+      <DependentUpon>ConsProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultEmploye.Designer.cs">
+      <DependentUpon>ConsultEmploye.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employe.cs" />
     <Compile Include="EmployeCo.cs" />
+    <Compile Include="Fidele.cs" />
+    <Compile Include="FideleCo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fournisseur.cs" />
+    <Compile Include="FournisseurCo.cs" />
+    <Compile Include="ModEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModEmploye.Designer.cs">
+      <DependentUpon>ModEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModFidele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModFidele.Designer.cs">
+      <DependentUpon>ModFidele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModProd.Designer.cs">
+      <DependentUpon>ModProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Poste.cs" />
+    <Compile Include="PosteCo.cs" />
+    <Compile Include="Produit.cs" />
+    <Compile Include="ProduitCo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjoutCommande.resx">
+      <DependentUpon>AjoutCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutEmploye.resx">
+      <DependentUpon>AjoutEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutFidele.resx">
+      <DependentUpon>AjoutFidele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutFourn.resx">
+      <DependentUpon>AjoutFourn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutProd.resx">
+      <DependentUpon>AjoutProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsCommande.resx">
+      <DependentUpon>ConsCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsFidele.resx">
+      <DependentUpon>ConsFidele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsFourn.resx">
+      <DependentUpon>ConsFourn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsPoste.resx">
+      <DependentUpon>ConsPoste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsProd.resx">
+      <DependentUpon>ConsProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultEmploye.resx">
+      <DependentUpon>ConsultEmploye.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModEmploye.resx">
+      <DependentUpon>ModEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModFidele.resx">
+      <DependentUpon>ModFidele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModProd.resx">
+      <DependentUpon>ModProd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
